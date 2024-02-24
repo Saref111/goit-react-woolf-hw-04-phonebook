@@ -21,7 +21,6 @@ const App = () => {
   };
 
   const addContact = ({ name, phone }) => {
-    debugger;
     if (isContactExist(name)) {
       alert(`${name} is already in contacts`);
       return;
